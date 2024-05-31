@@ -1,0 +1,126 @@
+/* Basic styles for the body element */
+body {
+
+  /* Background color of the body */
+  background-color: white;
+  /* Text color */
+  color: black;
+  /* Full viewport height */
+  height: 100vh;
+  /* Full viewport width */
+  width: 100vw;
+  /* Removes default margin */
+  margin: 0;
+  /* Font family */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Wrapper element styles */
+.wrapper {
+  /* Full viewport height */
+  height: 100vh;
+  /* Full width */
+  width: 100%;
+  /* Hide overflow content */
+  overflow: hidden;
+  /* Flexbox layout */
+  display: flex;
+  /* Column layout */
+  flex-direction: column;
+}
+
+/* Heading container styles */
+.heading {
+  /* Relative positioning */
+  position: relative;
+  /* 10% of the viewport height */
+  height: 10%;
+  /* Full width */
+  width: 100%;
+  /* Center text alignment */
+  text-align: center;
+}
+
+/* Top heading styles */
+.top-heading {
+  /* Normal font weight */
+  font-weight: normal;
+  /* Spacing between letters */
+  letter-spacing: 2px;
+}
+
+/* Bottom content container styles */
+.bottom-content {
+  /* Relative positioning */
+  position: relative;
+  /* Full viewport width */
+  width: 100vw;
+  /* 90% of the viewport height */
+  height: 90%;
+  /* Flexbox layout */
+  display: flex;
+  /* Center horizontally */
+  justify-content: center;
+  /* Center vertically */
+  align-items: center;
+}
+
+/* Hover area styles */
+.hover-area {
+  /* Relative positioning */
+  position: relative;
+  /* 48% of the viewport height */
+  height: 48%;
+  /* Full width */
+  width: 100%;
+  /* Negative top margin */
+  margin-top: -150px;
+  /* Background color */
+  background-color: black;
+  /* Text color */
+  color: rgba(142, 204, 59, 1);
+  /* Flexbox layout */
+  display: flex;
+  /* Column layout */
+  flex-direction: column;
+  /* Center horizontally */
+  justify-content: center;
+  /* Center vertically */
+  align-items: center;
+  /* Hide overflow content */
+  overflow: hidden;
+}
+
+/* Styles for the 'circle-shape' element */
+.circle-shape {
+  /* Absolute positioning */
+  position: absolute;
+  /* Ignore pointer events */
+  pointer-events: none;
+  /* Element height */
+  height: 2px;
+  /* Element width */
+  width: 2px;
+  /* Border color and thickness */
+  border: 0.1px solid rgba(142, 204, 59, 1);
+  /* Round shape */
+  border-radius: 50%;
+  /* Transition effects */
+  transition: opacity 0.8s ease-in, filter 0.8s ease-out, transform 0.8s ease-in-out;
+  /* No blur initially */
+  filter: blur(0);
+}
+
+/* Large text styles */
+.large-text {
+  /* Capitalize text */
+  text-transform: capitalize;
+  /* Larger font size */
+  font-size: 1.2em;
+  /* Bold font weight */
+  font-weight: bold;
+  /* Spacing between letters */
+  letter-spacing: 2px;
+  /* Ignore pointer events */
+  pointer-events: none;
+}
